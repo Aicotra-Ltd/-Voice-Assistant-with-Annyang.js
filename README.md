@@ -1,4 +1,4 @@
-#Voice Assistant with Annyang.js
+# Voice Assistant with Annyang.js
 Voice-powered chatbots bring a natural, hands-free interface to web applications. In this tutorial we’ll show how to build a **speech-enabled chatbot** that listens to spoken input, talks back, and can be completely customized – from the voice commands it recognizes to the AI “personality” behind it. We’ll use Annyang.js (a tiny JavaScript speech-recognition library) on the front end, and a simple Node.js (or Python) backend that calls an AI chatbot API.
 
 Along the way we’ll explain each step in friendly, clear terms so both beginners and experienced developers can follow along. By the end, you’ll have a robust Chatbot where _you_ can customize the “system instructions” (the AI’s role or behavior) for any use case – customer support, task automation, or just a fun voice assistant. We’ll also share code examples, images, and best practices (including security tips like keeping API keys secret) so you can confidently adapt this to your own projects.
