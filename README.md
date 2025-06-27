@@ -53,10 +53,6 @@ First, let’s set up a simple HTML page to hold our chat interface. We want an 
 
 #### Html
 
-HTML
-
-content\_copy
-
     
     <!DOCTYPE html>
     <html lang="en">
@@ -110,10 +106,6 @@ In `chatbot.js`, we’ll check if Annyang is available, then configure it. The s
 
 #### Javascript
 
-JavaScript
-
-content\_copy
-
     
     // chatbot.js
     
@@ -139,9 +131,6 @@ content\_copy
 
 However, for a chatbot we want a free-form conversation, not just fixed commands. We will utilize `annyang.addCallback('result', callback)` to record whatever the user articulates.The first element is typically the most likely. Let’s implement that, along with hooking the start/stop buttons:
 
-JavaScript
-
-content\_copy
 
     
     // chatbot.js (continued)
